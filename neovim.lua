@@ -4,7 +4,7 @@ return {
 	priority = 1000,
 	config = function()
 		-- Set the colorscheme name
-		vim.g.colors_name = "dothash"
+		vim.g.colors_name = "ash"
 
 		-- Define the color palette
 		local palette = {

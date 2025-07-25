@@ -23,7 +23,7 @@ Add the following to your `lazy.nvim` configuration:
 To use the theme, add the following to your `init.lua`:
 
 ```lua
-vim.cmd.colorscheme "dothash"
+vim.cmd.colorscheme "ash"
 ```
 
 ## Poem

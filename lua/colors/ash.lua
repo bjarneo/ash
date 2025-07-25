@@ -1,4 +1,4 @@
--- dothash.lua
+-- ash.lua
 
 local theme = {}
 
