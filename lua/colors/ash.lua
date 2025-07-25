@@ -1,6 +1,7 @@
 -- ash.lua
 
-local theme = {}
+vim.cmd("highlight clear")
+vim.o.termguicolors = true
 
 local palette = {
 	bg = "#1c1c1c",
@@ -13,7 +14,7 @@ local palette = {
 	fg_bright = "#e0e0e0",
 }
 
-theme.highlights = {
+local highlights = {
 	-- general
 	Normal = { fg = palette.fg, bg = palette.bg },
 	NormalFloat = { fg = palette.fg, bg = palette.gray1 },
@@ -40,7 +41,7 @@ theme.highlights = {
 	Keyword = { fg = palette.gray4 },
 	Operator = { fg = palette.gray4 },
 	Type = { fg = palette.gray4 },
-	Title = { fg = palette.fg_bright, style = "bold" },
+	Title = { fg = palette.fg_bright, bold = true },
 
 	-- diff
 	DiffAdd = { bg = palette.gray2 },
@@ -65,10 +66,7 @@ theme.highlights = {
 	PmenuThumb = { bg = palette.gray3 },
 }
 
-function theme.apply()
-	for group, settings in pairs(theme.highlights) do
-		vim.api.nvim_set_hl(0, group, settings)
-	end
+-- Apply the highlight groups
+for group, settings in pairs(highlights) do
+	vim.api.nvim_set_hl(0, group, settings)
 end
-
-return theme
