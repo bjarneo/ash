@@ -12,9 +12,11 @@ Add the following to your `lazy.nvim` configuration:
 
 ```lua
 {
-  "bjarneo/ash",
-  lazy = false,
+  "bjarneo/ash.nvim",
   priority = 1000,
+  config = function()
+    vim.cmd([[colorscheme ash]])
+  end,
 }
 ```
 
