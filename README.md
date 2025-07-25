@@ -28,9 +28,9 @@ vim.cmd.colorscheme "ash"
 
 ## Poem
 
->A whisper soft, a final sigh,
->Of embers fading, where flames danced high.
->A silver ghost on the hearthstone laid,
->A memory of the fire's parade.
->This is the ash, the soft and grey,
->The quiet end of a burning day.
+>A whisper soft, a final sigh,  
+>Of embers fading, where flames danced high.  
+>A silver ghost on the hearthstone laid,  
+>A memory of the fire's parade.  
+>This is the ash, the soft and grey,  
+>The quiet end of a burning day.  
