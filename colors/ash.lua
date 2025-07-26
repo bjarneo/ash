@@ -1,6 +1,3 @@
--- ash - Ethereal Magic colorscheme for Neovim
--- Converted from VS Code theme: https://github.com/ForrestKnight/ash-theme/
-
 -- This is the main colorscheme entry point
 -- For more advanced configuration, use: require('ash').setup()
 
