@@ -20,14 +20,14 @@ vim.o.background = "dark"
 vim.g.colors_name = "ash"
 
 local palette = {
-	bg = "#1c1c1c",
-	fg = "#c6c6c6",
-	gray1 = "#383838",
-	gray2 = "#626262",
-	gray3 = "#8a8a8a",
-	gray4 = "#9e9e9e",
-	gray5 = "#b2b2b2",
-	fg_bright = "#e0e0e0",
+	bg = "#1a1a1a",
+	fg = "#d0d0d0",
+	gray1 = "#303030",
+	gray2 = "#585858",
+	gray3 = "#808080",
+	gray4 = "#909090",
+	gray5 = "#a0a0a0",
+	fg_bright = "#e8e8e8",
 }
 
 -- Color palette from ash theme
