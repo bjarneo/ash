@@ -218,6 +218,10 @@ function M.apply(config)
 		require("ash.plugins.markdown").apply(colors, config)
 	end
 
+	if config.plugins.hlchunk then
+		require("ash.plugins.hlchunk").apply(colors, config)
+	end
+
 	-- Apply terminal colors if not disabled
 	if not config.disable.terminal_colors then
 		vim.g.terminal_color_0 = colors.terminal_black
