@@ -125,7 +125,7 @@ require('ash').load()
 
 -- Option 3: With lazy.nvim
 {
-  'adibhanna/ash-theme-nvim',
+  'bjarneo/ash.nvim',
   lazy = false,
   priority = 1000,
   opts = {
