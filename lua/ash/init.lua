@@ -29,7 +29,6 @@ M.config = {
 		gitsigns = true,
 		indent_blankline = true,
 		markdown = true,
-		hlchunk = true,
 	},
 }
 
